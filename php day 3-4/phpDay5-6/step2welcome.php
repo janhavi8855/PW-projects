@@ -4,7 +4,7 @@ session_start();
 
 if(!isset($_SESSION['username']))
 {
-    header("Location: step1login.php");
+    header("Location: step2login.php");
     exit();
 }
 
